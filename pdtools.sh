@@ -56,6 +56,7 @@ function execute_tools() {
 	GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 	GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
 	GO111MODULE=on go get -v github.com/projectdiscovery/proxify/cmd/proxify
+	GO111MODULE=on go get -v github.com/projectdiscovery/notify/cmd/notify
 }
 
 # Run functions sequentially.
