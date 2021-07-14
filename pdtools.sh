@@ -50,13 +50,13 @@ function main() {
 
 # Update/Install the project discovery tools tools
 function execute_tools() {
-	GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
-	GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
-	GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
-	GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
-	GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
-	GO111MODULE=on go get -v github.com/projectdiscovery/proxify/cmd/proxify
-	GO111MODULE=on go get -v github.com/projectdiscovery/notify/cmd/notify
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/naabu/v2/cmd/naabu
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsx/cmd/dnsx
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/proxify/cmd/proxify
+	GO111MODULE=on go get -u -v github.com/projectdiscovery/notify/cmd/notify
 }
 
 # Run functions sequentially.
