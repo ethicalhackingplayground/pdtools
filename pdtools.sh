@@ -57,6 +57,7 @@ function execute_tools() {
 	GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsx/cmd/dnsx
 	GO111MODULE=on go get -u -v github.com/projectdiscovery/proxify/cmd/proxify
 	GO111MODULE=on go get -u -v github.com/projectdiscovery/notify/cmd/notify
+	go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
 }
 
 # Run functions sequentially.
