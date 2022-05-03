@@ -35,8 +35,8 @@ function main() {
 		echo "----- [+] Installing Golang and pd tools"
 		echo ""
 		wget https://dl.google.com/go/go1.16.5.linux-amd64.tar.gz
-		sudo tar -xvf go1.16.5.linux-amd64.tar.gz
-		sudo mv go /usr/local
+		tar -xvf go1.16.5.linux-amd64.tar.gz
+		mv go /usr/local
 		export GOROOT=/usr/local/go
 		export GOPATH=$HOME/go
 		export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
